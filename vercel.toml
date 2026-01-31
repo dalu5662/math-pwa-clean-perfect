@@ -1,0 +1,12 @@
+[build]
+publish = "."
+
+[[redirects]]
+source = "/(.*)"
+destination = "/math.html"
+status = 200
+
+[[redirects]]
+source = "/"
+destination = "/math.html"
+status = 200
